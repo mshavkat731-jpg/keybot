@@ -143,4 +143,4 @@ client.once('ready', () => {
 client.login(process.env.TOKEN);
 require('http').createServer((req, res) => {
   res.end('Bot ishlayapti');
-}).listen(3000);
+}).listen(process.env.PORT);
